@@ -1,0 +1,100 @@
+::placeholder {
+  color: white;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+#container {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.1em;
+  
+}
+
+#title {
+  background: #3164b5; 
+  border: dotted;
+  border-color: #7b8696;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  max-width: 35%;
+}
+
+#description{
+  background: #b53131;
+  opacity: 0.8;
+  border: dotted;
+  border-color: #7b8696;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  border-radius: 10px;
+  
+  
+}
+body {
+   background: url(https://image.winudf.com/v2/image/Y29tLmxpdGVhcHBzLm1hcnZlbHdhbGxwYXBlcl9zY3JlZW5fMF8xNTI1NjgwNzQ3XzAyNw/screen-0.jpg?fakeurl=1&type=.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#survey-form {
+  margin: auto;
+  max-width: 50%;
+  padding: 3em 2em 3em 2em;
+  text-align: left;
+  background: #3164b5;
+  border-radius: 15px;
+  color: white;
+  opacity: 0.8;
+  font-size: 1em;
+}
+
+.text-input {
+  background: #3262a8;
+  border-color: red;
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 2em;
+  opacity: 0.7;
+  color: white;
+}
+#dropdown {
+  color: white;
+  background: #3262a8;
+  border-color: red;
+  width: 100%;
+  margin: auto;
+  border-radius: 3px;
+  opacity: 0.7;
+}
+label {
+  display: flex;
+  color: white;
+  margin: 7px;
+}
+#caption {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#question-input {
+  background: #3262a8;
+  border-color: red;
+  width: 100%;
+  color: white;
+  padding-bottom: 50px;
+  resize: none;
+  
+}
+#submit {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  background: red;
+}

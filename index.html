@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="container">
+  <head>
+    <title>Marvel Survey</title>
+  </head>
+  <header>
+    <h1 id="title"><span id="title-span">Marvel Character Survey</span></h1>
+    <p id="description">Who's your hero?
+    </p>
+  </header>
+
+  <body>
+    <div>
+      <form id="survey-form">
+        <div><label id="name-label">Name:</label></div>
+        <input id="name" type="text" required placeholder="Enter your name" class="text-input"> 
+        </input>
+      <div><label id="email-label">Email:</label></div>
+      <input id="email" type="email" required placeholder="Enter your email" class="text-input">
+      </input>
+    <div><label id="number-label">Age: (optional)</label></div>
+    <input id="number" type="number" placeholder="Enter your age" min="10" max="150" class="text-input">
+    </input>
+  <label id="caption">Select your ethnicity:</label>
+    <select id="dropdown">
+      <option value="select">Select here</option>
+      <option value="american">American</option>
+      <option value="asgardian">Asgardian</option>
+      <option value="british">British</option>
+      <option value="soviet">Soviet</option>
+      <option value="wakandan">Wakandan</option>
+      <option value="american">American</option>
+      <option value="transian">Transian</option>
+      <option value="other">Other</option>
+  </select>
+  
+  <p>Who's your favorite Marvel character?</p>
+  <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="black-widow"
+           >Black Widow</input>
+  </label>
+  <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="scarlet-witch"
+           >Scarlet Witch</input>
+</label>
+ <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="captain-america"
+           >Captain America</input>
+</label>
+ <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="thor"
+           >Thor</input>
+</label>
+ <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="spiderman"
+           >Spiderman</input>
+</label>
+ <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="ironman"
+           >Ironman</input>
+</label>
+ <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="hulk"
+           >Hulk</input>
+</label>
+ <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="winter-soldier"
+           >Winter Soldier</input>
+</label>
+ <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="loki"
+           >Loki</input>
+</label>
+ <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="vision"
+           >Vision</input>
+</label>
+ <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="dr-strange"
+           >Dr. Strange</input>
+</label>
+ <label>
+    <input type="radio"
+           name="character"
+           class="radio-input"
+           id="character-select"
+           value="other"
+           >Other</input>
+</label>
+<label id="caption"> Which would be your ideal superpowers?</label>
+   <label>
+    <input type="checkbox"
+           name="superpower"
+           class="checkbox-input"
+           id="superpower-select"
+           value="flight"
+           >Flight</input>
+</label>
+   <label>
+    <input type="checkbox"
+           name="superpower"
+           class="checkbox-input"
+           id="superpower-select"
+           value="laser-vision"
+           >Laser Vision</input>
+</label>
+   <label>
+    <input type="checkbox"
+           name="superpower"
+           class="checkbox-input"
+           id="superpower-select"
+           value="mega-strength"
+           >Mega Strength</input>
+</label>
+   <label>
+    <input type="checkbox"
+           name="superpower"
+           class="checkbox-input"
+           id="superpower-select"
+           value="healing-factor"
+           >Healing Factor</input>
+</label>
+   <label>
+    <input type="checkbox"
+           name="superpower"
+           class="checkbox-input"
+           id="superpower-select"
+           value="sparkly-hands"
+           >Sparkly Hands like Scarlet Witch</input>
+</label>
+   <label>
+    <input type="checkbox"
+           name="superpower"
+           class="checkbox-input"
+           id="superpower-select"
+           value="martial-arts"
+           >Martial Arts Prowess</input>
+</label>
+   <label>
+    <input type="checkbox"
+           name="superpower"
+           class="checkbox-input"
+           id="superpower-select"
+           value="treelike"
+           >To Be A Tree</input>
+</label>
+   <label>
+    <input type="checkbox"
+           name="superpower"
+           class="checkbox-input"
+           id="superpower-select"
+           value="strange-powers"
+           >Strange Powers
+</label>
+<div><label id="caption">What would be your go-to exclamation as you ran forth into battle?</label>
+  <textarea id="question-input" >
+  </textarea>
+<label id="caption">Click "Submit" to return your results!</label>
+  <button id="submit" type="submit" value="Submit">Submit!</button>
+  
+  
+      </form>
+    
+    </div>
+  </body>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
